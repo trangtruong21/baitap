@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+header {
+
+    height: 35px;
+    background-color: tomato;
+    position: relative;
+}
+ul li {
+    display: inline;
+    margin: 10px;
+    padding: 5px;
+ 
+    background-color: rgb(255, 255, 255);
+}
+
+parent > li {
+    float: left;
+    list-style-type: none;
+}
+.left{
+   background-color: rgb(203, 235, 235);
+   width: 20%;
+  float: left;
+}
+div{
+    display: block;
+}
+.right{
+    background-color: wheat;
+    width: 20%;
+    float: right;
+}
+.content {
+    padding: 20px;
+}
+.content{
+    width:60%;
+    background-color: thistle;
+}
+
+
+.left, .content, .right {
+    float: left;
+    height: 500px;
+}
+footer {
+
+   background-color: green;
+    width: 100%;
+  
+}
+footer {
+    display: block;
+}
